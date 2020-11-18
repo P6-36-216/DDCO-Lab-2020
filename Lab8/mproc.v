@@ -45,7 +45,7 @@ invert in1(cur_ins[15],x);
 invert in2(cur_ins[10],w);
 invert in3(cur_ins[14],y);
 invert in4(ld_ins,ld_ins_);
-and2 a1(cur_ins[15],s,ld_ins);
+and2 a1(cur_ins[15],y,ld_ins);
 nor5 n5({cur_ins[15],cur_ins[14],cur_ins[13],cur_ins[12],cur_ins[11]},alu_ins);
 and3 a2(cur_ins[14],x,e2,jump);
 
