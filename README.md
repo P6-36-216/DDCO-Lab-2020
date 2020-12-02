@@ -6,5 +6,6 @@
   vvp image_name
 ```
 # Display output waveform in gtwave : 
-```gtkwave image_name.vcd
+```
+gtkwave image_name.vcd
 ```
