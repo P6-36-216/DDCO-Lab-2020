@@ -5,7 +5,7 @@
   iverilog -o image_name filename.v testbench.v
   vvp image_name
 ```
-# Display output waveform in gtwave : 
+# Display output waveform in gtkwave : 
 ```
 gtkwave image_name.vcd
 ```
